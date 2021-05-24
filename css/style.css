@@ -13,7 +13,7 @@ body{
 header{
     background-color: #f7b600;    
     text-align: center;
-    padding: 15px; 
+    padding: 15px;    
 }
 
 .logo, nav{
@@ -78,6 +78,15 @@ h3{
     padding:15px;
     background-color:#ccc ;
 }
+
+/* Tentar depois responsividade */
+
+@media screen and (max-width: 680px)  {
+    .area-lateral{
+        background-color: orange;
+    }
+}
+
 
 
 
